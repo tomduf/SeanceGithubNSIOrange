@@ -36,4 +36,29 @@ def marine_page():
 def tomduf_page():
   return render_template('page_tomduf.html')
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@web_site.route('/clovis')
+def page_clovis():
+  return render_template('page_clovis.html')
+
 web_site.run(host='0.0.0.0', port=8080)
