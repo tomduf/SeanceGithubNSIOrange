@@ -36,26 +36,9 @@ def marine_page():
 def tomduf_page():
   return render_template('page_tomduf.html')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@web_site.route('/cyprien')
+def cyprien():
+  return render_template('page_SiPri123.html')
 
 @web_site.route('/clovis')
 def page_clovis():
