@@ -28,4 +28,8 @@ def generate_user(username):
 def random_page():
   return render_template('page.html', code=choice(number_list))
 
+@web_site.route('/cyprien')
+def cyprien():
+  return render_template('page_SiPri123.html')
+
 web_site.run(host='0.0.0.0', port=8080)
