@@ -28,6 +28,10 @@ def generate_user(username):
 def random_page():
   return render_template('page.html', code=choice(number_list))
 
+@web_site.route('/marine')
+def marine_page():
+  return render_template('page_marine.html')
+
 @web_site.route('/cyprien')
 def cyprien():
   return render_template('page_SiPri123.html')
