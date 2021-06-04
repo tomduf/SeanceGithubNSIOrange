@@ -32,4 +32,8 @@ def random_page():
 def marine_page():
     return render_template('page_marine.html')
 
+@web_site.route('/tomduf')
+def tomduf_page():
+  return render_template('page_tomduf.html')
+
 web_site.run(host='0.0.0.0', port=8080)
