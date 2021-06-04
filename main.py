@@ -30,7 +30,11 @@ def random_page():
 
 @web_site.route('/marine')
 def marine_page():
-  return render_template('page_marine.html')
+    return render_template('page_marine.html')
+
+@web_site.route('/tomduf')
+def tomduf_page():
+  return render_template('page_tomduf.html')
 
 @web_site.route('/cyprien')
 def cyprien():
